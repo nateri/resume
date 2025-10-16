@@ -1,4 +1,3 @@
-
 /*
 http://www.december.com/html/spec/color3.html
 color: #5D7B93;
@@ -110,6 +109,8 @@ p {
 
 
 section {
+	display: flex;
+	flex-wrap: wrap;
 	border-top: 1px solid #dedede;
 	padding: 20px 0 0;
 }
@@ -123,12 +124,10 @@ section:last-child {
 }
 
 .sectionTitle {
-	float: left;
 	width: 13%;
 }
 
 .sectionContent {
-	float: right;
 	width: 84.5%;
 }
 
@@ -342,5 +341,3 @@ section:last-child {
         width: 100%;
     }
 }
-
-
