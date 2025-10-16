@@ -338,7 +338,7 @@ section:last-child {
 
 /* --- Print Styles --- */
 @page {
-    margin: 1.5cm; /* Set margins for all pages */
+    margin: 2cm 0; /* Set top/bottom margin for all pages, remove left/right */
 }
 
 @page :first {
