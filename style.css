@@ -337,7 +337,13 @@ section:last-child {
 }
 
 @media print {
+    html, body {
+        background: #fff; /* Set background to white for printing */
+    }
     #cv {
         width: 100%;
+        margin: 0;
+        box-shadow: none; /* Remove shadow for printing */
+        padding: 40px 0; /* Add top/bottom padding for each printed page */
     }
 }
