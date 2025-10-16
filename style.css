@@ -336,6 +336,15 @@ section:last-child {
 	}
 }
 
+/* --- Print Styles --- */
+@page {
+    margin: 1.5cm; /* Set margins for all pages */
+}
+
+@page :first {
+    margin-top: 0; /* Remove top margin for the first page only */
+}
+
 @media print {
     html, body {
         background: #fff; /* Set background to white for printing */
@@ -344,6 +353,6 @@ section:last-child {
         width: 100%;
         margin: 0;
         box-shadow: none; /* Remove shadow for printing */
-        padding: 40px 0; /* Add top/bottom padding for each printed page */
+        background: #fff; /* Match resume background to page background */
     }
 }
